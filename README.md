@@ -1,4 +1,7 @@
 # Persona Assignment
+# Live on 
+https://cohort.parminder.online
+- Required a special key to access it 
 
 A full-stack chat app where users pick between two personas (Hitesh, Piyush) and chat with them via OpenAI, gated by a simple access key.
 
