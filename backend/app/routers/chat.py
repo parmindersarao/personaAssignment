@@ -36,7 +36,7 @@ def chat_endpoint(request: Request, body: ChatRequest, _: None = Depends(verify_
     message.append({"role":"user", "content":body.message})
 
     response = client.chat.completions.create(
-        model = "gpt-4o-mini",
+        model = "gpt-4",
         messages = message
     )
     
