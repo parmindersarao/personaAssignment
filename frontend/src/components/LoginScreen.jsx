@@ -20,7 +20,7 @@ export default function LoginScreen({ onLogin }) {
         <h2>Enter Access Key</h2>
         <input
           type="password"
-          placeholder="Access key"
+          placeholder="Type 'Access' here"
           value={key}
           onChange={(e) => setKey(e.target.value)}
         />
